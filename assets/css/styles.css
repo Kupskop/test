@@ -53,18 +53,18 @@ article {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  border: rgb(250, 233, 0) 5px solid;
+  border: rgb(255, 255, 255) 5px solid;
   margin: 0 auto;
   background-color: rgb(124, 214, 230);
   height: 400px;
   width: 800px;
 
   div {
-    background-color: rgb(250, 233, 0);
+    background-color: rgb(250, 0, 0);
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    animation: 4s linear 0s infinite alternate bold;
+    animation: 1s ease-in-out 2s infinite alternate bold;
   }
 }
 
