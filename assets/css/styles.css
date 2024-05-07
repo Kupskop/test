@@ -3,3 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #000c2c;
+}
+
+section {
+  height: 500px;
+  margin-top: 100px;
+}
+
+#circleTing {
+  margin-left: 50px;
+  box-shadow: 0 0 0 15px #270066, 0 0 0 25px #270058;
+  border-radius: 50%;
+  margin-top: 200px;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(195, 228, 9, 0.856);
+  transition: all 500ms ease-in-out;
+}
+
+#circleTing:hover {
+  height: 315px;
+  width: 315px;
+  box-shadow: 0 0 0 0px #270066, 0 0 0 10px #270058;
+}
+
+#boxting {
+  background-color: rgb(2, 2, 126);
+  height: 100px;
+  width: 200px;
+  animation: 2s ease-in-out 1s infinite alternate both running ting;
+}
+
+@keyframes ting {
+  from {
+    margin: 0;
+  }
+  to {
+    margin: 20px;
+  }
+}
+
+article {
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: rgb(250, 233, 0) 5px solid;
+  margin: 0 auto;
+  background-color: rgb(124, 214, 230);
+  height: 400px;
+  width: 800px;
+
+  div {
+    background-color: rgb(250, 233, 0);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    animation: 4s linear 0s infinite alternate bold;
+  }
+}
+
+@keyframes bold {
+  from {
+    transform: translateY(110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
